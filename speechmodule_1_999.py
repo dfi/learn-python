@@ -33,4 +33,4 @@ print 'h:\n', h
 
 print 'x:\n', x
 print '--------------------'
-print len(x)
+print len(z) - len(a) - len(b) - len(c) - len(d) - len(e) - len(f) - len(g) - len(h) - len(x) == 0
