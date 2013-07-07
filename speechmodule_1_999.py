@@ -22,14 +22,14 @@ for i in z:
                                 if i not in h:
                                     x.append(i)
         
-print 'a:\n', a
-print 'b:\n', b
-print 'c:\n', c
-print 'd:\n', d
-print 'e:\n', e
-print 'f:\n', f
-print 'g:\n', g
-print 'h:\n', h
+print 'a:\n', a, '\n'
+print 'b:\n', b, '\n'
+print 'c:\n', c, '\n'
+print 'd:\n', d, '\n'
+print 'e:\n', e, '\n'
+print 'f:\n', f, '\n'
+print 'g:\n', g, '\n'
+print 'h:\n', h, '\n'
 
 print 'x:\n', x
 print '---------------------------'
