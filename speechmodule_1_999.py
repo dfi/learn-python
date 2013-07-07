@@ -7,7 +7,7 @@ d = [i for i in range(21, 100) if i % 10 != 0]
 e = range(100, 1000, 100)
 f = [i for i in range(100, 1000) if ( i % 100 in range(1, 10) ) ]
 g = [i for i in range(100, 1000) if ( i % 100 in range(10, 20) ) ]
-h = [i for i in range(100, 1000) if ( i % 10 == 0 and (i % 100 > 10) ) ]
+h = [i for i in range(100, 1000) if ( (i % 10 == 0) and (i % 100 > 10) ) ]
 
 x = []
 
