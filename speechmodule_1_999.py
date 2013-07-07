@@ -3,8 +3,8 @@ z = range(1000)
 a = range(10)
 b = range(10, 20)
 c = range(20, 100, 10)
-d = range(100, 1000, 100)
-e = [i for i in range(21, 100) if i % 10 != 0]
+d = [i for i in range(21, 100) if i % 10 != 0]
+e = range(100, 1000, 100)
 f = [i for i in range(100, 1000) if ( i % 100 in range(1, 10) ) ]
 g = [i for i in range(100, 1000) if ( i % 100 in range(10, 20) ) ]
 h = [i for i in range(120, 1000) if (i % 10 == 0 and i % 100 != 0)]
