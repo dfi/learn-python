@@ -1,3 +1,5 @@
+#http://www.checkio.org/mission/task/speechmodule/
+
 FIRST_TEN = ["zero", "one", "two", "three", "four", "five", "six", "seven", \
              "eight", "nine"]
 SECOND_TEN = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", \
@@ -33,24 +35,24 @@ def checkio(number):
                FIRST_TEN[number % 10]
 
 
-print checkio(0)
-print checkio(3)
-print
-print checkio(12)
-print
-print checkio(20)
-print
-print checkio(21)
-print
-print checkio(300)
-print
-print checkio(905)
-print
-print checkio(115)
-print checkio(516)
-print
-print checkio(720)
-print
-print checkio(121)
-print checkio(543)
-print checkio(999)
+print(checkio(0))
+print(checkio(3))
+print()
+print(checkio(12))
+print()
+print(checkio(20))
+print()
+print(checkio(21))
+print()
+print(checkio(300))
+print()
+print(checkio(905))
+print()
+print(checkio(115))
+print(checkio(516))
+print()
+print(checkio(720))
+print()
+print(checkio(121))
+print(checkio(543))
+print(checkio(999))
