@@ -27,4 +27,4 @@ print('z:\n', z)
 print('---------------------------')
 print(len(x) - len(a) - len(b) - len(c) - len(d) - len(e) - len(f) - len(g) - len(h) - len(z))
 
-#type(range(i)) is range in Python 3, but list in Python 2
+#type(range(i)) is range in Python 3, but list in Python 2.
