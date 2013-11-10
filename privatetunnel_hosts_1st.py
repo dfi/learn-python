@@ -1,8 +1,10 @@
 '''
-openvpn 连不上 privatetunnel ，**去网站一看，以前的hosts都没了，现在只给了一个 privatetunnel-win-2.2.exe ，从中得到 pt_srvlist.bundle ，于是有了以下粗糙代码
+openvpn 连不上 privatetunnel ，**去网站一看，以前的hosts都没了，现在只给了
+一个 privatetunnel-win-2.2.exe ，从中得到 pt_srvlist.bundle ，于是有了以下
+粗糙代码。
 '''
 '''
-虽然折腾一番有些许成就感，但所知甚少
+虽然折腾一番有些许成就感，但所知甚少。
 '''
 
 with open('pt_srvlist.bundle', 'r') as The_read:
@@ -44,11 +46,6 @@ with open('pt_srvlist.bundle', 'r') as The_read:
 
     x5 = ''.join(listz)
 
-print(len(list1))
-print(len(list2))
-print(len(list3))
-print(len(list4))
-print(len(listz))
 
 with open('out1.txt', 'w') as Out_put:
     Out_put.write(x1)
