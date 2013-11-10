@@ -1,5 +1,6 @@
 '''
 这么写明显比第一种方法简洁，思路也清晰不少。
+当然还有更好的办法……
 '''
 with open('pt_srvlist.bundle', 'r') as The_read:
     for line in The_read:
